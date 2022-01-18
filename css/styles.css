@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/*Fonte*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap');
+
+/*Título e Barra de navegação*/
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 10% 7% 10%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#image1{
+    image-orientation: 90deg;
+}
+
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.container{
+    padding: 0 0px 0 0px;
+}
+.collapse{
+    padding: 0 40px 0 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/*Botões de Download*/
+
+.downloadButton{
+    margin: 5% 3% 5% 0;
+}
+
+/*Imagem*/
+
+.imagemTitulo{
+    width: 30%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 46%;
+}
+
+/*Recursos*/
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.recursos{
+    text-align: center;
+    padding: 4.5%;
+}
+.featuresIcon{
+    font-size: 300%;
+    color: #ef8172;
+    padding: 30px;
+}
+.featuresIcon:hover{
+    color: #ff4c68;
+}
+
+/* Seção de Depoimentos*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.testimonialImage{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.pressLogo{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+/*Preços*/
+
+#pricing{
+    padding: 100px;
+}
+
+#pricing h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#pricing p{
+    text-align: center;
+}
+
+/*Chamada*/
+
+#cta{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff4c68;
+    padding: 50px;
+    color: white;
+}
+
+#cta h3{
+    font-size: 3.5rem;
+    padding: 50px;
+}
+
+#cta button{
+    margin: 20px;
+}
+
+/*Rodapé*/
+
+#footer{
+    text-align: center;
+    padding: 70px;
+    background-color: white;
+}
+.footerIcons{
+    color:black;
+    font-size: 150%;
+    padding: 0 20px 0 20px;
+}
+/*Query Breakpoint*/
+
+@media (max-width: 991px) {
+    
+    #title{
+        text-align: center;
+    }
+    
+    .imagemTitulo{
+        width: 50%;
+        position: static;
+        transform: none;   
+    }
+}
